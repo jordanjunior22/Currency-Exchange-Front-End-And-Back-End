@@ -1,0 +1,7 @@
+controllers:
+    resource: ../src/Controller/
+    type: attribute
+api_fetch_currencyname:
+    path: /api/fetch-currencyname
+    controller: App\Controller\ApiController::getCurrencyNames
+    methods: [GET]

@@ -1,0 +1,11 @@
+!!!
+The folder /rates is the backend and the flder /rates/rates_front is the frontend
+
+the backend has 3 main files
+ApiModel which contains the sql codes, The ApiController_test which is our controller and UpdateExchangeRateCommand which updates 
+the rates in the database.
+
+The database called movie has 2 tables used for this project.
+exchange_rate: which stores the exchange rates
+rate_history : which stores the exchange rate histories which will be displayed in the chart in the front end.
+
